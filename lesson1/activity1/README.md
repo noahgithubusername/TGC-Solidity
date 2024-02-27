@@ -1,7 +1,7 @@
 ## TGC Solidity Lesson 1 Activity 1
 
-### Your Name: John Doe
+### My Name: John Doe
 
-### Your Hobby: Programming
+### My Hobby: Programming
 
-### Your Goal: To be the best programme in the world
+### My Goal: To be the best programme in the world
