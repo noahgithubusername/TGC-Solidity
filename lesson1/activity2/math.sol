@@ -18,13 +18,13 @@ contract Math {
     //    named whatever you wish and return the value of the variable minus 2
 
     // TODO: Task 2
-    // 1. Declare a function called multiple that takes in two uint8 variables
-    //    named whatever you wish and return the value of the variables multipled
+    // 1. Declare a function called multiply that takes in two uint8 variables
+    //    named whatever you wish and return the value of the variables multiplied
     //    by each other
 
     // TODO: Task 3
-    // 1. Declare a state variabled of type uint8 called z with a value of 2
-    // 1. Declare a function called divide that takes in one uint8 variable
+    // 1. Declare a state variable of type uint8 called z with a value of 2
+    // 2. Declare a function called divide that takes in one uint8 variable
     //    named whatever you wish and return the value of the variable divided
     //    by the value of z
 }

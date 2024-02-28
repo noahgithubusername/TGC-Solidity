@@ -77,8 +77,8 @@ contract Storage {
         // END OF CODE BLOCK //
 
         // TODO: Task 3
-        // 1. Use a for loop to add up the contents of the dataArray from index 0 to
-        //    index n (n is a parameter of the function getSum). Ouput the sum
+        // 1. Use a control flow to add up the contents of the dataArray from index 0 to
+        //    index n (n is a parameter of the function getSum). Output the sum.
     }
 
 }
