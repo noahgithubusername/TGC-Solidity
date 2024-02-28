@@ -10,6 +10,7 @@ pragma solidity >=0.8.2 <0.9.0;
 contract Storage {
     uint256 unlockTime;
     uint256 number;
+    uint8[10] dataArray;
 
     // TODO: Task 1
     // 1. Change the constructor function to take in a parameter of type uint256 called duration
@@ -25,6 +26,12 @@ contract Storage {
 
 
         // END OF CODE BLOCK //
+
+        uint8 i = 1;
+        while(i < 11) {
+            dataArray[i-1] = i;
+            i++;
+        }
     }
 
 
@@ -53,6 +60,25 @@ contract Storage {
         // 1. Use a control flow to change the amount code so that it will only return
         //    the state variable number if the timeNow is greater than the unlockTime
         //    if not the function should return 0
+    }
+
+    /**
+     * @dev Gets the sum of the data array based on the input into the function
+     * @param n how many numbers you would like to add up
+     * @return sum of the n number of items in the data array
+     */
+    function getSum(uint256 n) public view returns (uint8){
+        require(n <= 10, "Input should be less than or equal to 10");
+        // CODE BLOCK //
+        uint8 sum = 0;
+
+
+        return sum;
+        // END OF CODE BLOCK //
+
+        // TODO: Task 3
+        // 1. Use a for loop to add up the contents of the dataArray from index 0 to
+        //    index n (n is a parameter of the function getSum). Ouput the sum
     }
 
 }
