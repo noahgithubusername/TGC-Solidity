@@ -68,7 +68,7 @@ contract Storage {
      * @return sum of the n number of items in the data array
      */
     function getSum(uint256 n) public view returns (uint8){
-        require(n <= 10, "Input should be less than or equal to 10");
+        require(n < 10, "Input should be less than or equal to 10");
         // CODE BLOCK //
         uint8 sum = 0;
 
