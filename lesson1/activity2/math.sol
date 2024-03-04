@@ -8,7 +8,6 @@ pragma solidity >=0.8.2 <0.9.0;
  * @custom:dev-run-script ./scripts/deploy_with_ethers.ts
  */
 contract Math {
-    uint8 public z = 2;
 
     function add(uint8 x, uint8 y) public pure returns (uint8) {
         return  x + y;
