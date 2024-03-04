@@ -8,6 +8,7 @@ pragma solidity >=0.8.2 <0.9.0;
  * @custom:dev-run-script ./scripts/deploy_with_ethers.ts
  */
 contract Math {
+    uint8 public z = 2;
 
     function add(uint8 x, uint8 y) public pure returns (uint8) {
         return  x + y;
@@ -27,4 +28,19 @@ contract Math {
     // 2. Declare a function called divide that takes in one uint8 variable
     //    named whatever you wish and return the value of the variable divided
     //    by the value of z
+}
+contract MathContract {
+    
+    function subtract(uint8 integer) public pure returns (uint8) {
+        return integer - 2;
+    }
+    
+    function multiply(uint8 integer1, uint8 integer2) public pure returns (uint8) {
+        return integer1 * integer2;
+    }
+
+    function divide(uint8 integer3) public view returns (uint8) {
+        require(z != 0, "Division by zero");
+        return integer3 / z;
+    }
 }
