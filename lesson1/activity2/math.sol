@@ -26,7 +26,7 @@ contract Math {
     //    named whatever you wish and return the value of the variables multiplied
     //    by each other
     function multiply(uint8 b, uint8 c) public pure returns (uint8) {
-        return b * c:
+        return b * c;
     }
 
     // TODO: Task 3
