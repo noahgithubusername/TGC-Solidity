@@ -1,6 +1,6 @@
 ## TGC Solidity Lesson 1 Activity 1
 
-### My Name: John Doe
+### My Name: Noah
 
 ### My Hobby: Programming
 
