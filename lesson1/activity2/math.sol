@@ -17,16 +17,16 @@ contract Math {
     // TODO: Task 1
     // 1. Declare a function called subtract that takes in a uint8 variable
     //    named whatever you wish and return the value of the variable minus 2
-    function subtract(uint8 x) public pure returns (uint8) {
-        return x - 2;
+    function subtract(uint8 a) public pure returns (uint8) {
+        return a - 2;
     }
 
     // TODO: Task 2
     // 1. Declare a function called multiply that takes in two uint8 variables
     //    named whatever you wish and return the value of the variables multiplied
     //    by each other
-    function multiply(uint8 x, uint8 y) public pure returns (uint8) {
-        return x * y:
+    function multiply(uint8 b, uint8 c) public pure returns (uint8) {
+        return b * c:
     }
 
     // TODO: Task 3
@@ -36,8 +36,8 @@ contract Math {
     //    by the value of z
     uint8 public z = 2;
 
-    function divide(uint8 x) public view returns (uint8) {
+    function divide(uint8 d) public view returns (uint8) {
         require(z != 0, "cannot divide by zero");
-        return x / z;
+        return d / z;
     }
 }
